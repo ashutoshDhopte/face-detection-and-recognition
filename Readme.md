@@ -4,7 +4,7 @@ This repository implements a distributed face recognition pipeline using AWS IoT
 
 ## Architecture
 
-![Architecture Diagram](docs/architecture_diagram.png)
+![Architecture Diagram](architecture_diagram.png)
 
 1. **IoT Device (Emulated on EC2 Ubuntu)** publishes Base64‑encoded video frames to an MQTT topic (`clients/IoTThing`).
 2. **Greengrass Core (EC2 Amazon Linux)** runs the Face Detection component:
